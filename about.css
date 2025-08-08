@@ -94,11 +94,15 @@ section {
   margin: 2rem 0 3rem;
   font-weight: 400;
 }
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .project-item img {
-  float: left;
-  width: 630px;
-  height: 430px;
-  padding: 40px;
+  width: 550px;
+  height: 400px;
+  padding: 30px;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
